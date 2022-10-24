@@ -3,7 +3,7 @@ import { isAuth } from '../../hooks/useIsAuth';
 import { Header } from './header';
 import { UsersTable } from './usersTable';
 import { Container } from './styles';
-import '../../styles/styles.css';
+import '../../styles.css';
 import { Sidebar } from './sidebar';
 import { getUsers } from '../../hooks/useGetUsers';
 import { useEffect, useRef, useState } from 'react';
