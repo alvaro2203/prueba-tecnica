@@ -28,15 +28,9 @@ export function Sidebar() {
         </Span>
       </ItemSidebar>
       <SubMenu>
-        <Text size="13px" cursor="pointer">
-          Editar Academia
-        </Text>
-        <Text size="13px" cursor="pointer">
-          Estudiantes
-        </Text>
-        <Text size="13px" cursor="pointer">
-          Profesores
-        </Text>
+        <Text size="13px">Editar Academia</Text>
+        <Text size="13px">Estudiantes</Text>
+        <Text size="13px">Profesores</Text>
       </SubMenu>
       <ItemSidebar>
         <FiBook size={25} />

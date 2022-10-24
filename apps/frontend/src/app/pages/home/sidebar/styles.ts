@@ -1,7 +1,15 @@
 import styled from 'styled-components';
+import { device } from '../../../components/sizes';
 
 const SidebarContainer = styled.div`
   display: block;
+  @media ${device.laptop} {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media ${device.tablet} {
+    display: block;
+  }
 `;
 
 interface ItemSidebarprops {

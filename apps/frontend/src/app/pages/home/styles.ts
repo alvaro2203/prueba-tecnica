@@ -6,7 +6,7 @@ const Container = styled.div`
   display: grid;
   /* grid-gap: 5em; */
   grid-template-columns: 10% 80%;
-  @media ${device.tablet} {
+  @media ${device.laptop} {
     grid-gap: 1em;
     display: flex;
     flex-direction: column;

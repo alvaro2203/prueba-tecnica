@@ -23,11 +23,16 @@ const ContentModal = styled.div<ContentProps>`
   display: flex;
   flex-direction: column;
   align-items: ${(props) => props.align || 'left'};
+  @media ${device.mobileM} {
+    padding: 3px;
+    /* width: 120%; */
+  }
 `;
 
 const FormContainer = styled.div`
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 `;
 
 const FlexContainer = styled.div`

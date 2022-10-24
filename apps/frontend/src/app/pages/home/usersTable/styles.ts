@@ -3,6 +3,9 @@ import { device } from '../../../components/sizes';
 
 const Content = styled.div`
   padding-left: 50px;
+  @media ${device.laptop} {
+    padding-left: 5px;
+  }
 `;
 
 const CustomButton = styled.button`
@@ -38,7 +41,7 @@ const Heading = styled.div`
 
 const Row = styled.div`
   display: table-row;
-  min-width: fit-content;
+  min-width: max-content;
 `;
 
 const CellHeading = styled.span`
@@ -61,7 +64,6 @@ const Cell = styled.span`
   vertical-align: middle;
   font-size: 13px;
   font-weight: 400;
-  width: 20%;
 `;
 
 const IsOnlineBox = styled.div`

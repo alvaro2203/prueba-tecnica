@@ -22,7 +22,6 @@ import { User } from '../../../models/user';
 import { InfoModal } from './modals/infoModal';
 import { EditModal } from './modals/editModal';
 import { CoursesModal } from './modals/coursesModal';
-import { filter } from 'rxjs';
 
 interface Props {
   filteredUsers: User[];

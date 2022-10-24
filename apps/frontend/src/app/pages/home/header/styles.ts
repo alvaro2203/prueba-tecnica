@@ -17,7 +17,10 @@ const Separator = styled.div`
   display: flex;
   align-items: center;
   @media ${device.tablet} {
-    padding-left: 30px;
+    padding-left: 10px;
+  }
+  @media ${device.mobileM} {
+    padding-left: 8px;
   }
 `;
 
@@ -32,8 +35,12 @@ const SearchInput = styled.input`
   background: none;
   padding-left: 5px;
   padding-right: 54vw;
+  @media ${device.laptop} {
+    padding-right: 20vw;
+  }
   @media ${device.tablet} {
     padding-right: 0;
+    width: 22vw;
   }
 `;
 
