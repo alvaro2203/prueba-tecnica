@@ -1,15 +1,21 @@
 import styled from 'styled-components';
 
 import { Route, Routes, Link } from 'react-router-dom';
+import { Login } from './pages/login';
+import { Home } from './pages/home';
 
-const Wrapper = styled.div`
-
-`;
+const Wrapper = styled.div``;
 
 export function App() {
   return (
     <Wrapper>
       <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+
+      {/* <Routes>
+        <Route path="/login" />
         <Route
           path="/"
           element={
@@ -27,7 +33,7 @@ export function App() {
             </div>
           }
         />
-      </Routes>
+      </Routes> */}
       {/* END: routes */}
     </Wrapper>
   );
