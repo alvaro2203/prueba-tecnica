@@ -25,7 +25,6 @@ const ContentModal = styled.div<ContentProps>`
   align-items: ${(props) => props.align || 'left'};
   @media ${device.mobileM} {
     padding: 3px;
-    /* width: 120%; */
   }
 `;
 
